@@ -1,4 +1,4 @@
-from flask import Flask
+rom flask import Flask
 from flask import request
 
 #WA[
@@ -26,7 +26,7 @@ def sendmsg():
     msg = request.args.get('msg')
     token = request.args.get('token')
     if(str(token) == expected_token):
-        client = Client(login='919789852332', password='ramOr5fGdzmW3syZXjTyGa4kBYc=')
+        client = Client(login='91xxxxxxxxxx', password='ramOr5fGdzmW3syZXjgjdhk=')
         res = client.send_message(to, msg)  
     
     else:
